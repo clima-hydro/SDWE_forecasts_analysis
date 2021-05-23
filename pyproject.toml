@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "clima"
+name = "poc"
 version = "0.1.0"
 description = ""
 authors = ["windsor718 <yuta@mcdigital.jp>"]
@@ -8,9 +8,17 @@ authors = ["windsor718 <yuta@mcdigital.jp>"]
 python = "^3.9"
 pandas = "^1.2.4"
 seaborn = "^0.11.1"
+jupyter = "^1.0.0"
+flake8 = "^3.9.2"
+black = "^21.5b1"
+isort = "^5.8.0"
+mypy = "^0.812"
+nbqa = "^0.8.1"
+pre-commit = "^2.13.0"
 ecmwf-api-client = "^1.6.1"
 
 [tool.poetry.dev-dependencies]
+black = {version = "^21.5b1", allow-prereleases = true}
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
